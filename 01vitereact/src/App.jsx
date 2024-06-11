@@ -1,12 +1,13 @@
 import Rambo from './rambo'
 
 function App() {
+  const username = 'rambo'
 
   return (
     <>
     <Rambo />
-    <h1>new files</h1>
-    <p>okkkkkkkay</p>
+    <h1>this is {username}</h1>
+    <p>test paragraph</p>
     </>
   )
 }
