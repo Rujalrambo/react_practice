@@ -13,7 +13,10 @@ function App() {
       alert('process limit reached')
     }
     else{
-    setCounter(counter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
     }
   }
     
