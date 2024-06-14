@@ -1,9 +1,11 @@
 
 function App() {
-  const [color, setColor0] = useState('olive')
+  const [color, setColor] = useState('olive')
 
   return (
-   <div class='w-full '>
+   <div className='w-full h-screen duration-200 '
+   style={{backgroundColor: color}}
+   >
 
    </div>   
   )
